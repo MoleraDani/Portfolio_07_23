@@ -20,10 +20,10 @@ function App () {
           <img
             src={profileImage}
             alt='Dani Molera image'
-            className='rounded-full w-20 mt-10'
+            className='rounded-full w-36 mt-10'
           />
-          <p className='text-base'>Hola, soy <span className='text-blue-700 text-lg'>Dani</span></p>
-          <h1 className='pt-8 text-3xl font-medium bg-clip-text text-transparent bg-gradient-to-r from-gray-50 via-gray-350 to-gray-600'>
+          <p className='text-3xl'>Hola, soy <span className='text-blue-700 text-4xl font-medium'>Dani</span></p>
+          <h1 className='pt-16 text-6xl font-medium bg-clip-text text-transparent bg-gradient-to-r from-gray-50 via-gray-350 to-gray-600'>
             Desarrollador Frontend, <br /> buscando mi primera oportunidad laboral
           </h1>
           <ContactButton />

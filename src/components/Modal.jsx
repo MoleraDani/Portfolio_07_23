@@ -11,7 +11,7 @@ export function Modal ({ children, isOpen, changeModal }) {
       onClick={changeModal}
     >
       <div
-        className='relative p-4 w-full max-w-xs min-h-50 max-h-150 overflow-auto bg-white rounded-lg'
+        className='relative p-4 w-full max-w-lg min-h-50 max-h-150 overflow-auto bg-white rounded-lg'
         onClick={handleModalContentClick}
       >
         <button className='absolute top-4 right-4' onClick={changeModal}>

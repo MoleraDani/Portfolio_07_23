@@ -8,7 +8,7 @@ export function ContactButton () {
   return (
     <>
       <button
-        className='mt-9 p-1 bg-zinc-800 hover:bg-blue-700 rounded border-gray-50 border '
+        className='mt-24 text-2xl p-3 bg-zinc-800 hover:bg-blue-700 rounded border-gray-50 border '
         onClick={changeModal}
       >
         Contáctame
